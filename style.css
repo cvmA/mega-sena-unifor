@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D86200;
+}
+.container-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+    height: 100vh;
+}
+.titulo{
+    color: white;
+    font-size: 90px;
+}
+.sorteioBtn{
+    height: 70px;
+    width: 140px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.numerosArr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.celulas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    background-color: #81c995;
+    color: black;
+    font-size: 50px;
+}
